@@ -1,7 +1,22 @@
-export default function App() {
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Sejarah from "./pages/Sejarah";
+import Kegiatan from "./pages/Kegiatan";
+import Lokasi from "./pages/Lokasi.jsx";
+import BukuAngkatan from "./pages/BukuAngkatan";
+
+function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-500">Hello, AMKS.Y </h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sejarah" element={<Sejarah />} />
+        <Route path="/kegiatan" element={<Kegiatan />} />
+        <Route path="/lokasi" element={<Lokasi />} />
+        <Route path="/buku-angkatan" element={<BukuAngkatan />} />
+      </Routes>
+    </Router>
   );
 }
+
+export default App;
