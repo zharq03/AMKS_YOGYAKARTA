@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <footer className="bg-gradient-to-r from-blue-800 to-blue-600 text-white py-8 fixed bottom-0 left-0 w-full z-10">
+      <footer className="bg-gradient-to-r from-blue-800 to-blue-600 text-white py-8 bottom-0 left-0 w-full z-10">
         <div className="container mx-auto px-4">
         {/* Pesan Sambutan */}
         <div className="text-left space-y-4">

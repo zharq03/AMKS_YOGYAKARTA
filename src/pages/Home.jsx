@@ -1,15 +1,21 @@
-import Header from "../components/header.jsx";
-import Footer from "../components/footer.jsx"; 
+import Header from "../components/header";
+import Footer from "../components/footer";
+import JudulBeranda from "../components/JudulBeranda";
+import AMKSJalanJalanBeranda from "../components/AMKSJalanJalanBeranda";
+// import SejarahBeranda from "../components/SejarahBeranda";
+// import LokasiBeranda from "../components/LokasiBeranda";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <main className="container mx-auto mt-6">
-        <h1 className="text-2xl font-bold">Selamat Datang di Beranda AMKS Yogyakarta</h1>
-        <p className="mt-4 text-gray-700">Konten halaman beranda di sini...</p>
+      <main className="container mx-auto mt-6 space-y-16">
+        <JudulBeranda />
+        <AMKSJalanJalanBeranda />
+        {/* <SejarahBeranda />
+        <LokasiBeranda /> */}
       </main>
-      <Footer /> 
+      <Footer />
     </>
   );
 };
