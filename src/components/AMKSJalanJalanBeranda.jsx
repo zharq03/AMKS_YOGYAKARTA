@@ -2,15 +2,13 @@ import React from "react";
 
 const MasonryCards = () => {
   const cards = [
-    { image: "/imagesberanda/1.jpg", title: "India", subtitle: "Travel community", layout: "vertical" },
-    { image: "/imagesberanda/2.jpg", title: "Beach", subtitle: "Travel community", layout: "bottom" },
-    { image: "/imagesberanda/3.jpg", title: "Travel Talk", subtitle: "Travel community", layout: "side" },
-    { image: "/imagesberanda/4.jpg", title: "Event", subtitle: "Travel community", layout: "bottom" },
-    { image: "/imagesberanda/5.jpg", title: "Gathering", subtitle: "Travel community", layout: "side" },
-    { image: "/imagesberanda/6.jpg", title: "Community", subtitle: "Travel community", layout: "vertical" },
-    { image: "/imagesberanda/7.jpg", title: "Celebration", subtitle: "Travel community", layout: "side" },
-    { image: "/imagesberanda/8.jpg", title: "Team", subtitle: "Travel community", layout: "bottom" },
-    { image: "/imagesberanda/9.jpg", title: "Group", subtitle: "Travel community", layout: "side" },
+    { image: "/imagesberanda/agustusan.png", title: "Karnaval kemerdekaan", subtitle: "Acara 17 san kampung Tahunan", layout: "vertikal" },
+    { image: "/imagesberanda/badminton.png", title: "Badminton", subtitle: "kegiatan olahraga asrama", layout: "bottom" },
+    { image: "/imagesberanda/futsal.jpg", title: "Futsal", subtitle: "kegiatan olahraga asrama", layout: "vertikal" },
+    { image: "/imagesberanda/sholat.png", title: "Sholat berjamaah", subtitle: "kegiatan kerohanian asrama", layout: "vertikal" },
+    { image: "/imagesberanda/GBS.jpg", title: "GBS", subtitle: "Gelar Budaya Sambas", layout: "vertikal" },
+    { image: "/imagesberanda/pantai.jpg", title: "Mantai", subtitle: "Pantai Jungwook", layout: "bottom" },
+    { image: "/imagesberanda/tirakatan.png", title: "Malam Tirakatan", subtitle: "Malam tirakatan", layout: "vertikal" },
   ];
 
   return (
@@ -30,16 +28,16 @@ const MasonryCards = () => {
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-md">
           <img
-            src="/imagesberanda/highlight.jpg"
+            src="/imagesberanda/Asrama Mahasiswa kabupaten sambas.png"
             alt="Highlight"
-            className="w-full h-64 object-cover transform transition-transform duration-300 hover:scale-105"
+            className="w-full h-130 object-cover transform transition-transform duration-300 hover:scale-105"
           />
         </div>
       </div>
 
       {/* Masonry Grid for Cards */}
       <div
-        className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4"
+        className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4"
         style={{
           gridAutoRows: "auto",
         }}
@@ -47,46 +45,40 @@ const MasonryCards = () => {
         {cards.map((card, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg shadow-md overflow-hidden group transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
-            style={{
-              display: "inline-block",
-              maxWidth: "100%",
-              width: "fit-content",
-              height: "fit-content",
-            }}
+            className={`bg-white rounded-lg shadow-md overflow-hidden group transform transition-transform duration-300 hover:scale-105 hover:shadow-lg ${
+              card.layout === "side" ? "col-span-2" : ""
+            }`}
           >
             {/* Card Layout Handling */}
             {card.layout === "side" ? (
-              <div className="flex items-center">
+              <div className="flex items-center p-4 gap-4">
                 <img
                   src={card.image}
                   alt={card.title}
-                  className="object-cover w-24 h-24 rounded-md mr-4"
+                  className="object-cover w-24 h-24 rounded-md"
                 />
-                <div className="p-4">
+                <div>
                   <h3 className="text-lg font-semibold text-gray-800">{card.title}</h3>
                   <p className="text-sm text-gray-500">{card.subtitle}</p>
                 </div>
               </div>
             ) : card.layout === "bottom" ? (
-              <>
+              <div className="p-1">
                 <img
                   src={card.image}
                   alt={card.title}
-                  className="object-cover w-full h-auto rounded-t-lg"
+                  className="object-cover w-full h-auto rounded-lg"
                 />
-                <div className="p-2">
-                  <h3 className="text-lg font-semibold text-gray-800">{card.title}</h3>
-                  <p className="text-sm text-gray-500">{card.subtitle}</p>
-                </div>
-              </>
+                <h3 className="text-lg font-semibold text-gray-800">{card.title}</h3>
+                <p className="text-sm text-gray-500">{card.subtitle}</p>
+              </div>
             ) : (
               /* Vertical Card Layout */
-              <div className="p-2">
+              <div className="p-1">
                 <img
                   src={card.image}
                   alt={card.title}
-                  className="object-cover w-40 h-56 rounded-lg mb-2"
+                  className="object-cover w-full h-auto rounded-lg mb-2"
                 />
                 <h3 className="text-lg font-semibold text-gray-800 text-center">{card.title}</h3>
                 <p className="text-sm text-gray-500 text-center">{card.subtitle}</p>
@@ -94,6 +86,53 @@ const MasonryCards = () => {
             )}
           </div>
         ))}
+
+        {/* Additional Cards */}
+        <div className="space-y-4">
+          {/* Card 1: Baju Adat */}
+          <div
+            className="bg-white rounded-lg shadow-md overflow-hidden group transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+            style={{
+              maxWidth: "100%",
+              width: "fit-content",
+              height: "fit-content",
+            }}
+          >
+            <div className="flex items-center p-4">
+              <img
+                src="/imagesberanda/melayu.jpg"
+                alt="Baju adat"
+                className="object-cover w-24 h-24 rounded-md mr-4"
+              />
+              <div>
+                <h3 className="text-lg font-semibold text-gray-800">Baju adat melayu AMKS</h3>
+                <p className="text-sm text-gray-500">Baju melayu AMKS</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Card 2: Renang di Sungai Mudal */}
+          <div
+            className="bg-white rounded-lg shadow-md overflow-hidden group transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+            style={{
+              maxWidth: "100%",
+              width: "fit-content",
+              height: "fit-content",
+            }}
+          >
+            <div className="flex items-center p-4">
+              <img
+                src="/imagesberanda/sungaimudal.png"
+                alt="Renang di sungai mudal"
+                className="object-cover w-24 h-24 rounded-md mr-4"
+              />
+              <div>
+                <h3 className="text-lg font-semibold text-gray-800">Renang di sungai mudal</h3>
+                <p className="text-sm text-gray-500">kegiatan lahraga asrama</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Footer Section */}
