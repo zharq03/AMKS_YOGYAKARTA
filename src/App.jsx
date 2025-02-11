@@ -4,6 +4,7 @@ import Sejarah from "./pages/Sejarah";
 import Kegiatan from "./pages/Kegiatan";
 import Lokasi from "./pages/Lokasi.jsx";
 import BukuAngkatan from "./pages/BukuAngkatan";
+import IsiSejarah from "./pages/IsiSejarah";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/kegiatan" element={<Kegiatan />} />
         <Route path="/lokasi" element={<Lokasi />} />
         <Route path="/buku-angkatan" element={<BukuAngkatan />} />
+        <Route path="/IsiSejarah" element={<IsiSejarah />} />
       </Routes>
     </Router>
   );

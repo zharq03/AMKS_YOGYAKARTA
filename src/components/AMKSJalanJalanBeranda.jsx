@@ -1,6 +1,7 @@
 import React from "react";
 
 const MasonryCards = () => {
+  
   const cards = [
     { image: "/imagesberanda/agustusan.png", title: "Karnaval kemerdekaan", subtitle: "Acara 17 san kampung Tahunan", layout: "vertikal" },
     { image: "/imagesberanda/badminton.png", title: "Badminton", subtitle: "kegiatan olahraga asrama", layout: "bottom" },
@@ -88,6 +89,95 @@ const MasonryCards = () => {
         ))}
 
         {/* Additional Cards */}
+        <div className="space-y-4">
+          {/* Card 1: Baju Adat */}
+          <div
+            className="bg-white rounded-lg shadow-md overflow-hidden group transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+            style={{
+              maxWidth: "100%",
+              width: "fit-content",
+              height: "fit-content",
+            }}
+          >
+            <div className="flex items-center p-4">
+              <img
+                src="/imagesberanda/melayu.jpg"
+                alt="Baju adat"
+                className="object-cover w-24 h-24 rounded-md mr-4"
+              />
+              <div>
+                <h3 className="text-lg font-semibold text-gray-800">Baju adat melayu AMKS</h3>
+                <p className="text-sm text-gray-500">Baju melayu AMKS</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Card 2: Renang di Sungai Mudal */}
+          <div
+            className="bg-white rounded-lg shadow-md overflow-hidden group transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+            style={{
+              maxWidth: "100%",
+              width: "fit-content",
+              height: "fit-content",
+            }}
+          >
+            <div className="flex items-center p-4">
+              <img
+                src="/imagesberanda/sungaimudal.png"
+                alt="Renang di sungai mudal"
+                className="object-cover w-24 h-24 rounded-md mr-4"
+              />
+              <div>
+                <h3 className="text-lg font-semibold text-gray-800">Renang di sungai mudal</h3>
+                <p className="text-sm text-gray-500">kegiatan lahraga asrama</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Card 1: Baju Adat */}
+        <div
+            className="bg-white rounded-lg shadow-md overflow-hidden group transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+            style={{
+              maxWidth: "100%",
+              width: "fit-content",
+              height: "fit-content",
+            }}
+          >
+            <div className="p-1">
+              <img
+                src="/imagesberanda/melayu.jpg"
+                alt="Baju adat"
+                className="object-cover w-full h-auto rounded-lg"
+              />
+              <div>
+                <h3 className="text-lg font-semibold text-gray-800">Baju adat melayu AMKS</h3>
+                <p className="text-sm text-gray-500">Baju melayu AMKS</p>
+              </div>
+            </div>
+          </div>
+
+        {/* Card 1: Baju Adat */}
+        <div
+            className="bg-white rounded-lg shadow-md overflow-hidden group transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+            style={{
+              maxWidth: "100%",
+              width: "fit-content",
+              height: "fit-content",
+            }}
+          >
+            <div className="p-1">
+              <img
+                src="/imagesberanda/melayu.jpg"
+                alt="Baju adat"
+                className="object-cover w-full h-auto rounded-lg mb-2"
+              />
+              <div>
+                <h3 className="text-lg font-semibold text-gray-800">Baju adat melayu AMKS</h3>
+                <p className="text-sm text-gray-500">Baju melayu AMKS</p>
+              </div>
+            </div>
+          </div>
+
         <div className="space-y-4">
           {/* Card 1: Baju Adat */}
           <div
