@@ -1,6 +1,7 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
 import JudulIsiSejarah from "../components/JudulIsiSejarah";
+import IntiIsiSejarah from "../components/IntiIsiSejarah";
 
 const IsiSejarah = () => {
   return (
@@ -8,6 +9,7 @@ const IsiSejarah = () => {
       <Header />
       <main className="container mx-auto mt-6 space-y-16">
       <JudulIsiSejarah />
+      <IntiIsiSejarah />
       </main>
       <Footer />
     </>
