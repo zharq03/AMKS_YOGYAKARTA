@@ -1,8 +1,7 @@
 import rumah from "../assets/rumah.jpg";
 import { motion } from "framer-motion";
 
-
-const JudulKerjaBakti = () => {
+const JudulKegiatanOlahraga = () => {
     return (
         <motion.div
         className="w-full max-w-[calc(100%-60px)] mx-auto relative h-[450px] md:h-[500px] rounded-2xl overflow-hidden"
@@ -35,8 +34,8 @@ const JudulKerjaBakti = () => {
           </p>
         </div>
       </motion.div>
-        );
-      };
+    );
+  };
   
-  export default JudulKerjaBakti;
+  export default JudulKegiatanOlahraga;
   

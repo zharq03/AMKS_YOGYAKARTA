@@ -2,7 +2,7 @@ import React from "react";
 
 const KegiatanTahunan = () => {
   const kegiatan = [
-    { nama: "Agutusan", gambar: "/imagesberanda/agustusan.png" },
+    { nama: "Agustusan", gambar: "/imagesberanda/agustusan.png" },
     { nama: "Makrab", gambar: "/imagesberanda/boyro.jpg" },
     { nama: "Makrab", gambar: "/imagesberanda/makrabroxdd.jpg" },
   ];
@@ -18,13 +18,13 @@ const KegiatanTahunan = () => {
       </div>
 
       {/* Bagian Kanan (Card Slider) */}
-      <div className="w-full md:w-1/2 flex gap-4 overflow-x-auto scrollbar-hide">
+      <div className="w-full md:w-1/2 flex gap-4 overflow-x-auto scrollbar-hide snap-x snap-mandatory">
         {kegiatan.map((item, index) => (
           <div
             key={index}
-            className="min-w-[150px] md:min-w-[180px] bg-white rounded-lg shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+            className="w-1/2 min-w-[200px] md:min-w-[250px] bg-white rounded-lg shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300 snap-start h-80"
           >
-            <img src={item.gambar} alt={item.nama} className="w-full h-40 object-cover rounded-t-lg" />
+            <img src={item.gambar} alt={item.nama} className="w-full h-64 object-cover rounded-t-lg" />
             <div className="p-3 text-center font-semibold text-gray-800">{item.nama}</div>
           </div>
         ))}
