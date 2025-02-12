@@ -5,18 +5,18 @@ import JudulKegiatan from "../components/JudulKegiatan.jsx";
 import KegiatanTahunan from "../components/KegiatanTahunan.jsx";
 
 
-const Kegiatan = () => {
+const KegiatanKerohanian = () => {
   return (
     <>
       <Header />
       <main className="container mx-auto mt-6 space-y-16">
-        <JudulKegiatan />
+        {/* <JudulKegiatan />
         <KegiatanTahunan />
-        <KegiatanBesar />
+        <KegiatanBesar /> */}
       </main>
       <Footer />
     </>
   );
 };
 
-export default Kegiatan;
+export default KegiatanKerohanian;
