@@ -1,8 +1,8 @@
 import Header from "../components/header.jsx";
 import Footer from "../components/footer.jsx";
-import KegiatanBesar from "../components/KegiatanBesar.jsx";
+import IsiKerohanian from "../components/isikerohanian.jsx";
 import JudulKegiatanKerohanian from "../components/JudulKegiatanKerohanian.jsx";
-import KegiatanTahunan from "../components/KegiatanTahunan.jsx";
+import FotoKerohanian from "../components/FotoKerohanian.jsx";
 
 
 const KegiatanKerohanian = () => {
@@ -11,6 +11,8 @@ const KegiatanKerohanian = () => {
       <Header />
       <main className="container mx-auto mt-6 space-y-16">
         <JudulKegiatanKerohanian />
+        <IsiKerohanian />
+        <FotoKerohanian />
       </main>
       <Footer />
     </>
