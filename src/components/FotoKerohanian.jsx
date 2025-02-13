@@ -39,7 +39,7 @@ const FotoKerohanian = () => {
 
   return (
     <div className="p-4 text-center mb-16"> {/* Mengurangi padding kiri dan kanan */}
-      <h2 className="text-3xl font-bold text-yellow-400 mb-6">FOTO-FOTO KEGIATAN</h2>
+      <h2 className="text-3xl font-bold text-yellow-400 mb-6 animate-bounce tracking-wide drop-shadow-lg">FOTO-FOTO KEGIATAN</h2>
       <div className="overflow-hidden max-w-full mx-auto px-0"> {/* Menyesuaikan agar foto bersentuhan dengan sisi kiri dan kanan */}
         <div
           ref={scrollRef}

@@ -13,7 +13,7 @@ const fotoList = [
   "/imagesberanda/sholat.png",
 ];
 
-const FotoOlahraga = () => {
+const FotoKerjaBakti = () => {
   const scrollRef = useRef(null);
     let isDown = false;
     let startX;
@@ -64,4 +64,4 @@ const FotoOlahraga = () => {
     );
   };
 
-export default FotoOlahraga;
+export default FotoKerjaBakti;
