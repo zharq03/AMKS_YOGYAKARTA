@@ -8,7 +8,7 @@ const SejarahBeranda = () => {
     <div className="flex flex-col md:flex-row items-center gap-4 p-4">
       {/* Gambar Sejarah */}
       <img
-        src="/imagesberanda/pantai.jpg"
+        src="/images/2024.png"
         alt="Sejarah AMKS"
         className="rounded-lg shadow-lg md:w-1/2 transform transition duration-300 hover:scale-105 hover:shadow-xl"
       />

@@ -3,15 +3,19 @@ import { useNavigate } from "react-router-dom";
 
 const PendekSejarah = () => {
   const navigate = useNavigate();
-
+  
   return (
     <div className="flex flex-col md:flex-row items-center gap-4 p-4">
-      {/* Gambar Sejarah */}
-      <img
-        src="/imagesberanda/pantai.jpg"
-        alt="Sejarah AMKS"
-        className="rounded-lg shadow-lg md:w-1/2 transform transition duration-300 hover:scale-105 hover:shadow-xl"
-      />
+      {/* Gambar Sejarah dengan Overlay Gelap */}
+      <div className="relative md:w-1/2 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+        <img
+          src="/images/2024.png"
+          alt="Sejarah AMKS"
+          className="w-full h-full object-cover"
+        />
+        {/* Overlay lebih kontras */}
+        <div className="absolute inset-0 bg-black/70"></div>
+      </div>
 
       {/* Konten Teks */}
       <div className="md:w-1/2">
