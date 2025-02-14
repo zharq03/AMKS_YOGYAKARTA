@@ -3,14 +3,14 @@ import React, { useRef } from "react";
 const fotoList = [
   "/images/kerj1.jpg",
   "/images/kerj2.jpg",
-  "/images/kerj3.jpg",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
+  "/images/kerj3.png",
+  "/images/kerj4.png",
+  "/images/kerj5.jpg",
+  "/images/kerj6.png",
+  "/images/kerj7.png",
+  "/images/kerj8.png",
+  "/images/kerj9.png",
+  "/images/kerj10.png",
 ];
 
 const FotoKerjaBakti = () => {

@@ -4,7 +4,7 @@ const KegiatanTahunan = () => {
   const kegiatan = [
     { nama: "Agustusan", gambar: "/imagesberanda/agustusan.png" },
     { nama: "Makrab", gambar: "/imagesberanda/boyro.jpg" },
-    { nama: "Makrab", gambar: "/imagesberanda/makrabroxdd.jpg" },
+    { nama: "BuburPedas", gambar: "/images/bbrpds2.JPG" },
   ];
 
   return (
