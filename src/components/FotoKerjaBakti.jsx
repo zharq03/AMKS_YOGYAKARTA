@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 
 const fotoList = [
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
+  "/images/kerj1.jpg",
+  "/images/kerj2.jpg",
+  "/images/kerj3.jpg",
   "/imagesberanda/sholat.png",
   "/imagesberanda/sholat.png",
   "/imagesberanda/sholat.png",
