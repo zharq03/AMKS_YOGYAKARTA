@@ -2,24 +2,24 @@ import React from "react";
 
 const kegiatanList = [
   {
-    image: "/path-to-image-1.jpg",
+    image: "/images/sholat.png",
     title: "Sholat",
-    description: "Adalah kegiatan yang turun temurun dilakukan ketika warga asrama sudah gabut level maksimal",
+    description: "Kegiatan ibadah wajib bagi seluruh warga asrama yang dilakukan secara berjamaah untuk meningkatkan keimanan dan kebersamaan.",
   },
   {
-    image: "/path-to-image-2.jpg",
+    image: "/images/ngaji1.png",
     title: "Ngaji",
-    description: "Adalah kegiatan yang turun temurun dilakukan ketika warga asrama sudah gabut level maksimal",
+    description: "Kegiatan membaca dan memahami Al-Qur'an yang rutin dilakukan bersama sebagai bentuk pembelajaran agama dan peningkatan spiritual.",
   },
   {
-    image: "/path-to-image-3.jpg",
+    image: "/images/kultum.png",
     title: "Khultum",
-    description: "Adalah kegiatan yang turun temurun dilakukan ketika warga asrama sudah gabut level maksimal",
+    description: "Sesi ceramah singkat bertujuan untuk berbagi ilmu dan meningkatkan pemahaman keislaman.",
   },
   {
-    image: "/path-to-image-4.jpg",
+    image: "/images/idl1.jpg",
     title: "Idul Adha",
-    description: "Adalah kegiatan yang turun temurun dilakukan ketika warga asrama sudah gabut level maksimal",
+    description: "Perayaan hari besar Islam yang dirayakan dengan sholat Id berjamaah dan penyembelihan hewan kurban sebagai wujud kepedulian sosial.",
   },
 ];
 

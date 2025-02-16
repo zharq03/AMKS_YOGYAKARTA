@@ -7,9 +7,9 @@ const fotoList = [
   "/images/ngaji0.jpg",
   "/images/ngaji1.png",
   "/images/sholat.png",
-  "/images/futsal3.JPG",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
+  "/images/kultum.png",
+  "/images/ngaji2.png",
+  "/images/ngaji3.png",
   "/imagesberanda/sholat.png",
 ];
 
