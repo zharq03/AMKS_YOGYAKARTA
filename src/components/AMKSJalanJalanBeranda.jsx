@@ -12,11 +12,11 @@ const MasonryCards = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
         <div>
           <h2 className="text-3xl font-bold text-yellow-500 mb-4">Kegiatan AMKS</h2>
-          <p className="text-gray-600 mb-6">
+          <p className="text-gray-100 mb-6">
             Berikut adalah kegiatan yang telah dilakukan oleh komunitas. Dari pantai hingga acara gathering, kami
             menjelajah segalanya!
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-100">
             Kami percaya bahwa pengalaman bersama menciptakan kenangan yang berharga. Jelajahi cerita kami dari
             perjalanan yang tak terlupakan.
           </p>

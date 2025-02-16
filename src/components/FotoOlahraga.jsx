@@ -1,14 +1,14 @@
 import React, { useRef } from "react";
 
 const fotoList = [
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
-  "/imagesberanda/sholat.png",
+  "/images/renang1.png",
+  "/images/renang2.png",
+  "/images/voly1.jpg",
+  "/images/futsal0.jpg",
+  "/images/futsal1.png",
+  "/images/futsal2.jpg",
+  "/images/futsal3.JPG",
+  "/images/badminton.png",
   "/imagesberanda/sholat.png",
   "/imagesberanda/sholat.png",
 ];

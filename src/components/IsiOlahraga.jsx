@@ -10,12 +10,12 @@ const IsiOlahraga = () => {
     },
     {
       nama: "FUTSAL",
-      img: "/imagesberanda/futsal.png",
+      img: "/imagesberanda/futsal.jpg",
       posisi: "gambar-atas",
     },
     {
       nama: "RENANG",
-      img: "/imagesberanda/renang.png",
+      img: "/imagesberanda/sungaimudal.png",
       posisi: "teks-atas",
     },
   ];
@@ -38,15 +38,15 @@ const IsiOlahraga = () => {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-lg font-bold text-blue-700 shadow-md mb-3">
-                memiliki 3 kegiatan wajib yang di lakukan pada setiap:
+                memiliki 3 kegiatan olahraga wajib yang di lakukan pada setiap minggunya:
               </h2>
-              <p className="text-sm font-semibold text-gray-700 leading-tight">
-                kegiatan kerja bakti yang di <br />
-                amaishaufnaifnsainjaicna <br />
-                ajkmsavgrnwisovdJogbifn <br />
-                eaidbacnsofbh wjvdksmcnefiuk <br />
-                wjldwSODIFNSUDJK VSLDWOKA <br />
-                IJOVNFJL NVJFAIJNOInjnojniuh uuh j
+              <p className="text-sm font-semibold text-gray-700 leading-tight text-left">
+              Badminton <br />
+              Dilaksanakan di lapangan indoor atau outdoor, kegiatan ini bertujuan meningkatkan ketangkasan, refleks, serta membangun kerja sama tim. <br />
+              Futsal <br />
+              Berlangsung di lapangan futsal, olahraga ini melatih ketahanan fisik, koordinasi, dan strategi permainan tim. <br />
+              Renang <br />
+              Dilaksanakan di kolam renang dan objek wisata air, kegiatan ini bermanfaat untuk melatih pernapasan, daya tahan tubuh, serta memberikan efek relaksasi bagi peserta dan juga sekalian refreshing ke alam.
               </p>
             </motion.div>
           )}
@@ -85,15 +85,15 @@ const IsiOlahraga = () => {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-lg font-bold text-blue-700 shadow-md mt-3">
-                memiliki 3 kegiatan wajib yang di lakukan pada setiap:
+              memiliki 3 kegiatan olahraga wajib yang di lakukan pada setiap minggunya:
               </h2>
-              <p className="text-sm font-semibold text-gray-700 leading-tight">
-                kegiatan kerja bakti yang di <br />
-                amaishaufnaifnsainjaicna <br />
-                ajkmsavgrnwisovdJogbifn <br />
-                eaidbacnsofbh wjvdksmcnefiuk <br />
-                wjldwSODIFNSUDJK VSLDWOKA <br />
-                IJOVNFJL NVJFAIJNOInjnojniuh uuh j
+              <p className="text-sm font-semibold text-gray-700 leading-tight text-left">
+              Badminton <br />
+              Dilaksanakan di lapangan indoor atau outdoor, kegiatan ini bertujuan meningkatkan ketangkasan, refleks, serta membangun kerja sama tim. <br />
+              Futsal <br />
+              Berlangsung di lapangan futsal, olahraga ini melatih ketahanan fisik, koordinasi, dan strategi permainan tim. <br />
+              Renang <br />
+              Dilaksanakan di kolam renang dan objek wisata air, kegiatan ini bermanfaat untuk melatih pernapasan, daya tahan tubuh, serta memberikan efek relaksasi bagi peserta dan juga sekalian refreshing ke alam.
               </p>
             </motion.div>
           )}
